@@ -47,11 +47,11 @@ Jupyter may be required to view the .ipynb file.
 ## Contributors
 
 Brought to you by:
-* [name](link)
-* [name](link)
-* [name](link)
-* [name](link)
-* [name](link)
+* [Jason](https://github.com/jasonbucks)
+* [Justin](https://github.com/jlesieur0)
+* [Majid](https://github.com/MajidKouki)
+* [Ragini](https://github.com/ragininegi)
+* [Souk](https://github.com/SoukP1)
 
 ---
 
