@@ -1,1 +1,1 @@
-# beating-the-market-with-ai
+# Beating the Market with AI
