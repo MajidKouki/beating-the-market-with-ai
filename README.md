@@ -16,8 +16,6 @@ This project leverages python with the following packages:
 
 * [Scikit-learn](https://github.com/scikit-learn/scikit-learn) - For "".
 
-* [Pandas TA](https://github.com/twopirllc/pandas-ta) - For "".
-or
 * [TA Lib](https://github.com/mrjbq7/ta-lib) - For "".
 
 ---
@@ -27,7 +25,10 @@ or
 Before first running the application install the following dependencies:
 
 ```python
-    pip install ""
+    pip install pandas
+    pip install numpy
+    pip install scikit-learn
+    pip install ta-lib
 ```
 
 Jupyter may be required to view the .ipynb file.
