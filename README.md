@@ -46,27 +46,29 @@ This project is primarily intended for analysis in order to identify ideal machi
 
 The result of testing multiple models with the initial data as well as the box plot of the results can be seen below:
 
-* LogisticRegression: 0.713262 (0.018495)
+* GaussianNB: 0.900 (0.011)
 
-* LinearDiscriminantAnalysis: 0.712880 (0.018832)
+* SVM: 0.925 (0.016)
 
-* KNeighborsClassifier: 0.663751 (0.017812)
+* LinearDiscriminantAnalysis: 0.888 (0.020)
 
-* DecisionTreeClassifier: 0.595224 (0.032750)
+* LogisticRegression: 0.929 (0.013)
 
-* GaussianNB: 0.700695 (0.018807)
+* DecisionTreeRegressor: 0.935 (0.013)
 
-* RandomForestClassifier: 0.598266 (0.031925)
+* KNeighborsClassifier: 0.936 (0.008)
 
-* ExtraTreesClassifier: 0.597890 (0.033889)
+* DecisionTreeClassifier: 0.941 (0.013)
 
-* AdaBoostClassifier: 0.593313 (0.032291)
+* RandomForestClassifier: 0.958 (0.012)
 
-* SVM: 0.701454 (0.015199)
+* ExtraTreesClassifier: 0.960 (0.011)
 
-* GradientBoostingClassifier: 0.706790 (0.022231)
+* AdaBoostClassifier: 0.940 (0.017)
 
-* MLPClassifier: 0.712880 (0.018832)
+* GradientBoostingClassifier: 0.955 (0.015)
+
+* MLPClassifier: 0.982 (0.007)
 
 <img src="./imgs/Models.jpeg" alt="Models Data Comparison" width="600" height="700">
 
