@@ -44,6 +44,10 @@ Jupyter may be required to view the .ipynb file.
 
 This project is primarily intended for analysis in order to identify ideal machine learning models for algorithmic trading purposes. The code can be modified to work with other data if needed. The ideal usage of this project would be using the final results and analysis to determine the ideal model for other projects and real-world applications. To use this project, ensure all packages are installed and run all to view the results and analysis.
 
+---
+
+## Analysis
+
 The result of testing multiple models with the initial data as well as the box plot of the results can be seen below:
 
 * GaussianNB: 0.900 (0.011)
@@ -58,9 +62,9 @@ The result of testing multiple models with the initial data as well as the box p
 
 * KNeighborsClassifier: 0.936 (0.008)
 
-* DecisionTreeClassifier: 0.941 (0.013)
+* DecisionTreeClassifier: 0.942 (0.015)
 
-* RandomForestClassifier: 0.958 (0.012)
+* RandomForestClassifier: 0.954 (0.012)
 
 * ExtraTreesClassifier: 0.960 (0.011)
 
@@ -71,6 +75,40 @@ The result of testing multiple models with the initial data as well as the box p
 * MLPClassifier: 0.982 (0.007)
 
 <img src="./imgs/Models.jpeg" alt="Models Data Comparison" width="600" height="700">
+
+The top three models chosen were the MLP Classifier, Extra Trees Classifier, and Gradient Boosting Classifier. The three models were trained and tested on Apple stocks with the following results and returns:
+
+Baseline returns - 6.47x
+
+MLP model - 7.36x
+
+<img src="./imgs/aapl-mlp.png" alt="MLP Model - Apple" width="700" height="350">
+
+ETC model - 5.74x
+
+<img src="./imgs/aapl-etc.png" alt="ETC Model - Apple" width="700" height="350">
+
+GBC model - 3.89x
+
+<img src="./imgs/aapl-gbc.png" alt="GBC Model - Apple" width="700" height="350">
+
+The models were then tested on Microsoft without retraining to identify whether the trained model can be used on other stocks and help identify patterns and possible overfitting. The results are as follows:
+
+Baseline returns - 8.1x
+
+MLP model - 2.01x
+
+<img src="./imgs/msft-mlp.png" alt="MLP Model - Microsoft" width="700" height="350">
+
+ETC model - 1.14x
+
+<img src="./imgs/msft-etc.png" alt="ETC Model - Microsoft" width="700" height="350">
+
+GBC model - 1.37x
+
+<img src="./imgs/msft-gbc.png" alt="GBC Model - Microsoft" width="700" height="350">
+
+Various other configurations were tested and it was found that the most likely cause of performance issues was the initial algorithm or indicators used to train the models as there was similarly poor performance with Microsoft prior to using the models. In the future, further testing and optimization of the algorithm used to create signals as well as the indicators used will likely result in a more positive outcome.
 
 ---
 
