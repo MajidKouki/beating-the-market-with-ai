@@ -74,7 +74,7 @@ The result of testing multiple models with the initial data as well as the box p
 
 * MLPClassifier: 0.982 (0.007)
 
-<img src="./imgs/Models.jpeg" alt="Models Data Comparison" width="600" height="700">
+<img src="./imgs/models.jpeg" alt="Models Data Comparison" width="600" height="700">
 
 The top three models chosen were the MLP Classifier, Extra Trees Classifier, and Gradient Boosting Classifier. The three models were trained and tested on Apple stocks with the following results and returns:
 
